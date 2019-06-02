@@ -16,7 +16,7 @@ app.use(async (ctx, next) => {
 // // Create and Deploy Your First Cloud Functions
 // // https://firebase.google.com/docs/functions/write-firebase-functions
 //
-// exports.hello = functions.https.onRequest((request, response) => {
-//   response.send("Hello from Firebase!!!!!!!!!!!!");
-// });
+exports.hello = functions.https.onRequest((request, response) => {
+  response.send("Hello from Firebase!!!!!!!!!!!!");
+});
 exports.app = functions.https.onRequest(app);
