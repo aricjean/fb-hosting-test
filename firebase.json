@@ -11,8 +11,8 @@
     ],
     "rewrites": [
       {
-        "source": "/hello",
-        "function": "hello"
+        "source": "/app",
+        "function": "app"
       }
     ]
   },
